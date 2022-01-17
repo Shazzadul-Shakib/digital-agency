@@ -1,0 +1,95 @@
+
+/*  ====================================================================
+====        Project Name : Stdio Design Landing Page                ====
+====  ************************************************************  ====
+====            Project Contributor:                                ====
+====              1. Os-Traveller                                   ====
+====              2. Shazzadul-Shakib                               ====
+====              3. miforbd                                        ====
+====================================================================  */
+
+
+
+/* ================================== 
+              variable 
+================================== */
+:root {
+  --clr-primary: #2639ED;
+  --max-scrn-size: 1920px;
+  --normal-scrn-size: 1280px;
+}
+
+ /* ================================== 
+                Base 
+================================== */
+
+/*  Note: Do not change this. This is the basic boilerplate of css.
+    Please read this very carefully. We shold try to write clean code.
+    Please use semantic tag. While choosing class name choose a meaningful 
+    one. And Try to use relative values while defining width heigh or font 
+    size. I have made a section named container. All the codes should be 
+    written in the scope of container. Only footer has be wiritten outside 
+    the scope of container. So that when we will be working with media query 
+    that will be easy playing with various kind of screen size. 
+    Thank you.
+
+    By ---- Os-Traveller.
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  /* this has been done to ge rid of annoying margin and padding  by -- Os-Traveller*/
+}
+html {
+  font-size: 62.5%;
+  font-family: Averta Demo PE Cutted Demo;
+  src: url("./resources/font/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf");
+  /*  
+    here root font-size is 10px - by Os-Traveller
+    so 1erm = 10px
+  */
+}
+body {
+  width: 100%;
+  display: flex;
+}
+.container {
+  max-width: var(--max-scrn-size);
+  min-width: var(--normal-scrn-size);
+  width: 100%;
+  padding: 4rem 12rem;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.5rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2.5rem;
+}
+h5 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.6rem;
+}
+ /* ================================== 
+              Layout 
+ ================================== */
+
+ /* ================================== 
+              Components 
+ ================================== */
+
+ /* ================================== 
+              Utility 
+ ================================== */  
