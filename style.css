@@ -93,3 +93,19 @@ p {
  /* ================================== 
               Utility 
  ================================== */  
+
+ /*! Clients section */
+ .clients{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly; 
+ }
+ .client-logo{
+   padding-left: 60px;
+ }
+ .client-header{
+   margin-right: 20px;
+ }
+ .amazon{
+   padding-top: 20px;
+ }
