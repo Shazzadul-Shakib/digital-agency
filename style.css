@@ -8,7 +8,10 @@
 ====              3. miforbd                                        ====
 ====================================================================  */
 
-
+/* ================================== 
+              Imports 
+================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 /* ================================== 
               variable 
@@ -48,8 +51,7 @@
 }
 html {
   font-size: 62.5%;
-  font-family: Averta Demo PE Cutted Demo;
-  src: url("./resources/font/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf");
+  font-family: 'Poppins', sans-serif;
   /*  
     here root font-size is 10px   so 1erm = 10px
     by Os-Traveller
