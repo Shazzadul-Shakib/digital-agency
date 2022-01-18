@@ -17,6 +17,7 @@
   --clr-primary: #2639ED;
   --max-scrn-size: 1920px;
   --normal-scrn-size: 1280px;
+  --section-margin:10rem;
 }
 
  /* ================================== 
@@ -50,8 +51,8 @@ html {
   font-family: Averta Demo PE Cutted Demo;
   src: url("./resources/font/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf");
   /*  
-    here root font-size is 10px - by Os-Traveller
-    so 1erm = 10px
+    here root font-size is 10px   so 1erm = 10px
+    by Os-Traveller
   */
 }
 body {
@@ -84,28 +85,84 @@ p {
 }
  /* ================================== 
               Layout 
- ================================== */
+================================== */
+/* ------------------------- 
+  !Hero Box section 
+    by Os-Traveller
+------------------------ */
+.hero_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 600px;
+  margin: var();
+}
+.hero_box--text h1 {
+ margin-bottom: 4rem;
+}
+.hero_box--text p {
+ margin-bottom: 3rem;
+ color: #565656;
+ max-width: 50ch;
+}
+.hero_box--img {
+ height: 100%;
+ background-image: 
+   url("./resources/iocns/Ellipse.svg"),
+   url("./resources/iocns/Rectangle.svg");
+ background-repeat: no-repeat, no-repeat;
+ background-position: 0 0, 90% 100%;
+ display: flex;
+ justify-content: flex-end;
+ padding-left: 5rem;
+}
+.hero_box--img img {
+ width: 75rem;
+ height: 51rem;
+}
+
+/* ------------------------- 
+  !Clients section 
+    by Shazzadul-Shakib 
+------------------------ */
+
+ .clients{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+.client-logo{
+  padding-left: 60px;
+}
+.client-header{
+  margin-right: 20px;
+}
+.amazon{
+  padding-top: 20px;
+}
 
  /* ================================== 
               Components 
  ================================== */
+ .btn {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  background-color: var(--clr-primary);
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+}
+.btn:hover {
+  background-color: #fff;
+  color: var(--clr-primary);
+}
 
  /* ================================== 
               Utility 
  ================================== */  
-
- /*! Clients section */
- .clients{
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly; 
- }
- .client-logo{
-   padding-left: 60px;
- }
- .client-header{
-   margin-right: 20px;
- }
- .amazon{
-   padding-top: 20px;
- }
+.u-section-margin--bottom {
+  margin-bottom: var(--section-margin) !important;
+}
+ 
