@@ -18,6 +18,7 @@
 ================================== */
 :root {
   --clr-primary: #2639ED;
+  --clr-primary-dark: #081161;
   --max-scrn-size: 1920px;
   --normal-scrn-size: 1280px;
   --section-margin:10rem;
@@ -155,10 +156,12 @@ p {
   font-size: 2rem;
   padding: 1rem 2rem;
   border-radius: 30px;
+  transition: all 0.3s ease-in-out;
 }
 .btn:hover {
-  background-color: #fff;
-  color: var(--clr-primary);
+  background-color: var(--clr-primary-dark);
+  color: #fff;
+  transform: scale(1.05);
 }
 
  /* ================================== 
