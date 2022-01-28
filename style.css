@@ -185,6 +185,22 @@ a{
   padding-top: 20px;
 }
 
+/* ------------------------- 
+  !Help section 
+    by Shazzadul-Shakib 
+------------------------ */
+.help-container{
+  display: flex;
+
+}
+.help-texts{
+  background-image: url(resources/bg/Rectangle\ 25.png);
+  background-repeat: no-repeat;
+}
+.help-boxes{
+  background-image: url(resources/bg/Rectangle\ 24.png);
+  background-repeat: no-repeat;
+}
  /* ================================== 
               Components 
  ================================== */
